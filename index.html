@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+		<meta name="description" content="Frontend web developer skilled in React, TypeScript, and Sass. I create modern, responsive, and user-friendly websites.">	
+		<meta name="author" content="Emad Morad">	
+		<title>Emad Morad | Frontend Developer</title>
+		<!--=============== Favicons ===============-->
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon-32x32.png" type="image/png">
+		<link rel="icon" href="img/favicon-16x16.png" type="image/png">
+		<!-- Apple/Safari -->
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<!-- PWA/Android -->
+		<link rel="manifest" href="img/site.webmanifest">
+		<!--=============== Remixicons ===============-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+		<!--=============== Normalize ===============-->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<!--=============== Animations ===============-->
+		<link rel="stylesheet" href="css/animations.css" />
+		<!--=============== Style CSS ===============-->	
+		<link rel="stylesheet" href="css/style.css" />	
+  </head>
+  <body>
+		<header aria-label="header" id="header" class="header">
+		  <div class="container">
+			  <a href="#" class="navbar-brand">Emad</a>
+			
+				<nav id="home-nav">
+					<ul class="nav-links">
+						<li class="nav-item">
+							<a href="#landing" class="nav-link" style="color: #ffffff">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#about" class="nav-link" style="color: #ffffff">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="#portfolio" class="nav-link" style="color: #ffffff">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a href="#skills" class="nav-link" style="color: #ffffff">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link" style="color: #ffffff">Contact</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</header>
+		
+
+		<main class="home">
+			<section aria-label="landing" id="landing" class="landing">
+				<div class="landing-container">
+					<h1 class="slide-in-left">Hi, I'm <span>Emad Morad</span></h1>
+					<h2 class="slide-in-right">Front-End Developer</h2>
+					<p class="fade-in">I create beautiful, functional websites with a focus on user experience and clean code.</p>
+					<div class="landing-buttons-row fade-in-delay">
+						<a class="btn btn-primary">View My Work</a>
+						<a class="btn btn-secondary">Contact Me</a>
+					</div>
+				</div>
+		  </section>
+			
+			<section aria-label="about" id="about" class="about">
+				<h2 class="section-title">About <span>Me</span></h2>
+				<div class="about-content">
+					<div class="about-image">
+							<img src="img/me.jpg" alt="Emad profile shot" width="741" height="741" decoding="async" loading="lazy">
+					</div>
+					<div class="about-text">
+						<h3>Who I Am</h3>
+						<p>I'm a <span class="highlight">highly motivated web developer</span> with a passion for front-end development. My experience includes building websites from the ground up using plain HTML, CSS, and JavaScript, as well as utilizing more advanced frameworks and technologies like <span class="highlight">React, Sass, and TypeScript</span> to take my websites to the next level.</p>
+						<p>My goal is to <span class="highlight">bring designs to life</span> and create seamless user experiences that leave a lasting impression.</p>
+
+						<div class="btn-about">
+						  <a href="path-to-your-resume.pdf" target="_blank" rel="noreferrer nofollow" type="application/octet-stream" class="resume-btn">
+								<i class="ri-external-link-line"></i> My Resume 
+					  	</a>
+						</div>
+					</div>
+        </div>
+			</section>
+			
+			<section aria-label="portfolio" id="portfolio" class="portfolio">
+        <div class="container">
+          <h2 class="section-title">My <span>Portfolio</span></h2>
+          <p class="section-subtitle">Here's some of my recent work</p>
+            
+					<!-- Portfolio Filter -->
+					<div class="portfolio-filter">
+						<button class="filter-btn active" data-filter="all">All</button>
+						<button class="filter-btn" data-filter="web">HTML/CSS</button>
+						<button class="filter-btn" data-filter="app">JavaScript</button>
+						<button class="filter-btn" data-filter="app">React</button>
+					</div>
+            
+					<!-- Portfolio Items -->
+					<div class="portfolio-grid">
+						<!-- Item 1 -->
+						<div class="portfolio-item" data-category="web">
+							<div class="portfolio-img">
+								<img src="img/projects/project-1" alt="Web Project">
+								<div class="portfolio-overlay">
+									<h3>E-commerce Website</h3>
+									<p>Full-stack development with React & Node.js</p>
+									<div class="portfolio-buttons">
+										<a href="https://github.com/yourusername/project1" target="_blank" class="portfolio-btn code-btn">
+											<i class="ri-github-fill"></i> View Code
+										</a>
+										<a href="https://yourproject1demo.com" target="_blank" class="portfolio-btn demo-btn"><i class="ri-external-link-line"></i> Live Demo
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Item 2 -->
+						<div class="portfolio-item" data-category="app">
+							<div class="portfolio-img">
+								<img src="img/projects/project-2" alt="App Project">
+								<div class="portfolio-overlay">
+									<h3>Fitness Tracker App</h3>
+									<p>React Native application with Firebase backend</p>
+									<div class="portfolio-buttons">
+										<a href="https://github.com/yourusername/project1" target="_blank" class="portfolio-btn code-btn">
+											<i class="ri-github-fill"></i> View Code
+										</a>
+										<a href="https://yourproject1demo.com" target="_blank" class="portfolio-btn demo-btn"><i class="ri-external-link-line"></i> Live Demo
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Item 3 -->
+						<div class="portfolio-item" data-category="app">
+							<div class="portfolio-img">
+								<img src="img/projects/project-3" alt="App Project">
+								<div class="portfolio-overlay">
+									<h3>Fitness Tracker App</h3>
+									<p>React Native application with Firebase backend</p>
+									<div class="portfolio-buttons">
+										<a href="https://github.com/yourusername/project1" target="_blank" class="portfolio-btn code-btn">
+											<i class="ri-github-fill"></i> View Code
+										</a>
+										<a href="https://yourproject1demo.com" target="_blank" class="portfolio-btn demo-btn"><i class="ri-external-link-line"></i> Live Demo
+										</a>
+									</div>
+								</div>
+							</div>
+							</div>
+						
+						<!-- Item 4 -->
+						<div class="portfolio-item" data-category="app">
+							<div class="portfolio-img">
+								<img src="img/projects/project-4" alt="App Project">
+								<div class="portfolio-overlay">
+									<h3>Fitness Tracker App</h3>
+									<p>React Native application with Firebase backend</p>
+									<div class="portfolio-buttons">
+										<a href="https://github.com/yourusername/project1" target="_blank" class="portfolio-btn code-btn">
+											<i class="ri-github-fill"></i> View Code
+										</a>
+										<a href="https://yourproject1demo.com" target="_blank" class="portfolio-btn demo-btn"><i class="ri-external-link-line"></i> Live Demo
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Item 5 -->
+						<div class="portfolio-item" data-category="app">
+							<div class="portfolio-img">
+								<img src="img/projects/project-5.png" alt="App Project">
+								<div class="portfolio-overlay">
+									<h3>Fitness Tracker App</h3>
+									<p>React Native application with Firebase backend</p>
+									<div class="portfolio-buttons">
+										<a href="https://github.com/yourusername/project1" target="_blank" class="portfolio-btn code-btn">
+											<i class="ri-github-fill"></i> View Code
+										</a>
+										<a href="https://yourproject1demo.com" target="_blank" class="portfolio-btn demo-btn"><i class="ri-external-link-line"></i> Live Demo
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Item 6 -->
+						<div class="portfolio-item" data-category="app">
+							<div class="portfolio-img">
+								<img src="img/projects/project-1" alt="App Project">
+								<div class="portfolio-overlay">
+									<h3>Fitness Tracker App</h3>
+									<p>React Native application with Firebase backend</p>
+									<div class="portfolio-buttons">
+										<a href="https://github.com/yourusername/project1" target="_blank" class="portfolio-btn code-btn">
+											<i class="ri-github-fill"></i> View Code
+										</a>
+										<a href="https://yourproject1demo.com" target="_blank" class="portfolio-btn demo-btn"><i class="ri-external-link-line"></i> Live Demo
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="view-more">
+            <a href="#">View More Projects</a>
+          </div>					
+        </div>
+      </section>
+			
+			
+			<section aria-label="skills" class="skills" id="skills">
+				<div class="container">
+        <h2 class="section-title">My <span>Skills</span></h2>
+					<div class="skills-container">
+						<div class="skill-item">
+							<img src="img/icon-1.png" alt="html icon">
+							<h3>HTML</h3>
+						</div>
+						<div class="skill-item">
+							<img src="img/icon-2.png" alt="css icon">
+							<h3>CSS</h3>
+						</div>
+						<div class="skill-item">
+							<img src="img/icon-3.svg" alt="javascript icon">
+							<h3>JavaScript</h3>
+						</div>
+						<div class="skill-item">
+							<img src="img/icon-4.png" alt="sass icon">
+							<h3>SASS</h3>
+						</div>
+						<div class="skill-item">
+							<img src="img/react-js-icon.svg" alt="react icon">
+							<h3>React</h3>
+						</div>
+						<div class="skill-item">
+							<img src="img/typescript.svg" alt="typescript icon">
+							<h3>TypeScript</h3>
+						</div> 
+					</div>
+				</div>	
+      </section>
+			
+			
+			<section aria-label="contact" id="contact" class="contact">
+				<div class="container">
+					<h2 class="section-title">Get In <span>Touch</span></h2>
+					<div class="contact-content">
+						<div class="contact-info">
+							<h3>Contact Information</h3>
+							<p>Feel free to reach out to me for any questions or opportunities.</p>
+							<div class="info-item">
+								<i class="ri-mail-line"></i>
+								<span>emadmoradd45@gmail.com</span>
+							</div>
+							<div class="info-item">
+								<i class="ri-phone-line"></i>
+								<span>+20 01012502653</span>
+							</div>
+							<div class="info-item">
+								<i class="ri-map-pin-line"></i>
+								<span>Cairo, Egypt</span>
+							</div>
+							<div class="social-links">
+								<a href="https://github.com/emadmoradd" target="_blank"><i class="ri-github-fill"></i></a>
+								<a href="https://www.linkedin.com/in/emad-morad/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+								<a href="https://x.com/emadmoradd" target="_blank"><i class="ri-twitter-x-fill"></i></a>
+								<a href="https://www.instagram.com/emadmorad_/" target="_blank"><i class="ri-instagram-line"></i></a>
+							</div>
+						</div>
+						<form class="contact-form">
+							<div class="form-group">       
+								<label for="name">Full Name</label>
+								<input type="text" id="name" placeholder="Ecma Script" required>
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" id="email" placeholder="ecmascript@example.com" required>
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea id="Message" placeholder="Your Message" required></textarea>
+							</div>
+							<div class="btn-submit">
+							  <button type="submit" class="btn btn-primary">Send Message</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<p>&copy; <span id="current-year"></span> Emad Morad. All Rights Reserved.</p>
+			</div>
+		</footer>
+		
+    <script src="js/main.js"></script>
+  </body>
+</html>
